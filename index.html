@@ -36,6 +36,17 @@
             border-bottom: 5px solid var(--accent-color);
         }
 
+        .profile-pic {
+            width: 135px;
+            height: 135px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--accent-color);
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            background-color: var(--secondary-color);
+        }
+
         header h1 {
             font-size: 2.6rem;
             letter-spacing: 0.5px;
@@ -276,6 +287,10 @@
             header {
                 padding: 2.5rem 1rem;
             }
+            .profile-pic {
+                width: 110px;
+                height: 110px;
+            }
             header h1 {
                 font-size: 2rem;
             }
@@ -305,12 +320,14 @@
 <body>
 
     <header>
+        <!-- Pulls your GitHub avatar automatically. To use a custom file in your repo, change src to "profile.jpg" -->
+        <img src="https://github.com/Engineer-From-East.png" alt="Md. Ridwan Alam" class="profile-pic">
         <h1>Md. Ridwan Alam</h1>
         <p class="subtitle">Computer Science and Engineering (CSE) Student at Varendra University</p>
         <div class="header-links">
             <span>📍 Rajshahi, Bangladesh</span>
             <a href="mailto:ridwanalam3030@gmail.com">✉️ ridwanalam3030@gmail.com</a>
-            <a href="tel:+880 1965973014">📞 +880 1965973014</a>
+            <a href="tel:+8801965973014">📞 +880 1965973014</a>
             <a href="https://github.com/Engineer-From-East" target="_blank" rel="noopener">💻 GitHub</a>
             <a href="https://www.linkedin.com/in/ridwan-alam-47876b445/" target="_blank" rel="noopener">🔗 LinkedIn</a>
         </div>
@@ -544,7 +561,7 @@
                     <p>Academic Email: <br><a href="mailto:23131111112@vu.edu.bd">23131111112@vu.edu.bd</a></p>
                 </div>
                 <div class="contact-item">
-                    <p>Phone: <br><a href="tel:+880 1965973014">+880 1965973014</a></p>
+                    <p>Phone: <br><a href="tel:+8801965973014">+880 1965973014</a></p>
                 </div>
                 <div class="contact-item">
                     <p>GitHub: <br><a href="https://github.com/Engineer-From-East" target="_blank" rel="noopener">github.com/Engineer-From-East</a></p>
